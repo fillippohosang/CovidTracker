@@ -29,7 +29,7 @@ const App = () =>{
                   </ul>
               </nav>
           </div>
-          <p><center> Covid 19 </center></p>
+          <h1><center> Covid 19 Tracker </center></h1>
           <Switch>
               <Route path="/Global">
                   <Global />
@@ -46,3 +46,4 @@ const App = () =>{
 }
 
 export default App
+
