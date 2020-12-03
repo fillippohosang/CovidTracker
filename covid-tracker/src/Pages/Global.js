@@ -1,5 +1,6 @@
 import React, {useEffect, useState } from 'react';
 import axios from "axios"
+import '../App.css'
 
 const Global = () => {
   const [confirmed, setConfirmed] = useState([]);
@@ -20,13 +21,17 @@ const Global = () => {
 
   return(
 
-    <div>
-    <h1>Confirmed {confirmed}</h1>
-    <h1>Deaths {deaths}</h1>
-    <h1>Recovered {recovered}</h1>
+    <div><center>
+    <h1>Global Case</h1>
+    <div className = "box">
+    <h1 className ="boxConfirmed">Confirmed {confirmed}</h1>
+    <h1 className ="boxDeaths">Deaths {deaths}</h1>
+    <h1 className ="boxRecovered">Recovered {recovered}</h1>
     </div>
+    </center></div>
     
 );
 
 };
+
 export default Global;

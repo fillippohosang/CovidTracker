@@ -1,9 +1,9 @@
 import React from "react";
-import "./App.css"
 import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
 import Global from "./Pages/Global.js"
 import Indonesia from "./Pages/Indonesia.js"
 import Province from "./Pages/Province.js"
+
 
 const App = () =>{
   return (
