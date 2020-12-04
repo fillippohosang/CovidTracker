@@ -19,16 +19,14 @@ const Indonesia = () => {
    }, []);
 
     return(
-  
       <div><center>
       <h1>Indonesia Case</h1>
-      <div className = "box">
+      <div className = "center">
       <h1 className ="boxConfirmed">Confirmed {jumlahKasus}</h1>
       <h1 className ="boxDeaths">Deaths {meninggal}</h1>
       <h1 className ="boxRecovered">Recovered {sembuh}</h1>
       </div>
       </center></div>
-      
   );
   
   };

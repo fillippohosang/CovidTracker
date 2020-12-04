@@ -23,7 +23,7 @@ const Global = () => {
 
     <div><center>
     <h1>Global Case</h1>
-    <div className = "box">
+    <div className = "center">
     <h1 className ="boxConfirmed">Confirmed {confirmed}</h1>
     <h1 className ="boxDeaths">Deaths {deaths}</h1>
     <h1 className ="boxRecovered">Recovered {recovered}</h1>
