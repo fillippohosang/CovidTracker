@@ -22,9 +22,9 @@ const Indonesia = () => {
       <div><center>
       <h1>Indonesia Case</h1>
       <div className = "center">
-      <h1 className ="boxConfirmed">Confirmed {jumlahKasus}</h1>
-      <h1 className ="boxDeaths">Deaths {meninggal}</h1>
-      <h1 className ="boxRecovered">Recovered {sembuh}</h1>
+      <h1 className ="boxConfirmed">Confirmed {jumlahKasus} Cases</h1>
+      <h1 className ="boxDeaths">Deaths {meninggal} Cases</h1>
+      <h1 className ="boxRecovered">Recovered {sembuh} Cases</h1>
       </div>
       </center></div>
   );

@@ -15,30 +15,32 @@ const Province = () => {
 
 return (
 
+          <div className="center">
             <table>
                <thead>
                 <tr>
-                 <th>|No|</th>
-                 <th>Province|</th>
-                 <th>Confirmed|</th>
-                 <th>Deaths|</th>
-                 <th>Recovered|</th>
+                 <th className="boxNum">No</th>
+                 <th className="boxProvince">Province</th>
+                 <th className="boxConfirmedP">Confirmed</th>
+                 <th className="boxDeathsP">Deaths</th>
+                 <th  className="boxRecoveredP">Recovered</th>
                 </tr>
                 </thead>
                 <tbody>
                   {province?.map((item, index) => {
                    return (
                     <tr key={index}>
-                    <th key={item.fid}>{index + 1}.</th>
-                    <td>{item.provinsi}</td>
-                    <td>{item.kasusPosi}</td>
-                    <td>{item.kasusMeni}</td>
-                    <td>{item.kasusSemb}</td>
+                    <th className="boxNum" key={item.fid}>{index + 1}.</th>
+                    <td className="boxProvince">{item.provinsi}</td>
+                    <td className="boxConfirmedP">{item.kasusPosi}</td>
+                    <td className="boxDeathsP">{item.kasusMeni}</td>
+                    <td className="boxRecoveredP">{item.kasusSemb}</td>
                  </tr>
                 )
                 })}
               </tbody>
-            </table>
+            </table></div>
+ 
  
 )
 }

@@ -11,19 +11,19 @@ const App = () =>{
           <div>
               <nav>
                   <ul>
-                      <li>
+                      <li>  
                           <Link to="/Global">
-                              Global
+                             <b>Global</b> 
                           </Link>
                       </li>
                       <li>
                           <Link to="/Indonesia">
-                              Indonesia
+                             <b> Indonesia</b>
                           </Link>
                       </li>
                       <li>
                           <Link to="/Province">
-                              Province
+                             <b>Province</b> 
                           </Link>
                       </li>
                   </ul>

@@ -1,46 +1,68 @@
 .boxConfirmed{
   font-size: 1.5rem  ;
   width: 150px;
-  height: 150px;
+  height: 100px;
   text-align: center;
   margin: 2px;
   padding: 12px;
-  border-radius: 10px;
-  border-width: px;
-  border-color: black;
-  border-style: solid;
+  border-radius: 5px;
   font-weight: bold;
   background-color:rgb(233, 52, 45);
+  font-style: italic;
+}
+
+.boxConfirmedP{
+  border-style: double;
+  text-align: center;
+  background-color:rgb(233, 52, 45);
+  font-style: italic;
+}
+.boxDeathsP{
+  border-style: double;
+  text-align: center;
+  background-color:rgb(228, 226, 220);
+  font-style: italic;
+}.boxProvince{
+  border-style: double;
+  text-align: center;
+  background-color:rgb(241, 230, 128);
+ 
+}.boxRecoveredP{
+  border-style: double;
+  text-align: center;
+  background-color:rgb(76, 255, 52);
+  font-style: italic;
+}.boxNum{
+  border-style: double;
+  text-align: center;
+  background-color:rgb(136, 190, 199);
+  
 }
 
 .boxDeaths{
   font-size: 1.5rem  ;
   width: 150px;
-  height: 150px;
+  height: 100px;
   text-align: center;
   margin: 2px;
   padding: 12px;
-  border-radius: 10px;
-  border-width: px;
-  border-color: black;
-  border-style: solid;
+  border-radius: 5px;
   font-weight: bold;
   background-color:rgb(228, 226, 220);
+  font-style: italic;
 }
 
 .boxRecovered{
   font-size: 1.5rem;
   width: 150px;
-  height: 150px;
+  height: 100px;
   text-align: center;
   margin: 2px;
   padding: 12px;
-  border-radius: 10px;
-  border-width: px;
-  border-color: black;
-  border-style: solid;
+  border-radius: 5px;
   font-weight: bold;
   background-color:rgb(76, 255, 52);
+  font-style: italic;
 }
 
 .center{
