@@ -1,6 +1,8 @@
 import React, {useEffect, useState } from 'react';
 import axios from "axios"
 import '../App.css'
+import NumberFormat from 'react-number-format'
+
 
 const Province = () => {
     const [province, IndonesiaList] = useState([]);
@@ -32,9 +34,9 @@ return (
                     <tr key={index}>
                     <th className="boxNum" key={item.fid}>{index + 1}.</th>
                     <td className="boxProvince">{item.provinsi}</td>
-                    <td className="boxConfirmedP">{item.kasusPosi}</td>
-                    <td className="boxDeathsP">{item.kasusMeni}</td>
-                    <td className="boxRecoveredP">{item.kasusSemb}</td>
+                    <td className="boxConfirmedP"> <NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></td>
+                    <td className="boxDeathsP"> <NumberFormat value={item.kasusMeni} thousandSeparator={true} displayType={'text'}/> </td>
+                    <td className="boxRecoveredP">  <NumberFormat value={item.kasusSemb} thousandSeparator={true} displayType={'text'}/> </td>
                  </tr>
                 )
                 })}
