@@ -25,7 +25,7 @@ return (
                  <th className="boxProvince">Province</th>
                  <th className="boxConfirmedP">Confirmed</th>
                  <th className="boxDeathsP">Deaths</th>
-                 <th  className="boxRecoveredP">Recovered</th>
+                 <th className="boxRecoveredP">Recovered</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -34,7 +34,7 @@ return (
                     <tr key={index}>
                     <th className="boxNum" key={item.fid}>{index + 1}.</th>
                     <td className="boxProvince">{item.provinsi}</td>
-                    <td className="boxConfirmedP"> <NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/></td>
+                    <td className="boxConfirmedP"> <NumberFormat value={item.kasusPosi} thousandSeparator={true} displayType={'text'}/> </td>
                     <td className="boxDeathsP"> <NumberFormat value={item.kasusMeni} thousandSeparator={true} displayType={'text'}/> </td>
                     <td className="boxRecoveredP">  <NumberFormat value={item.kasusSemb} thousandSeparator={true} displayType={'text'}/> </td>
                  </tr>

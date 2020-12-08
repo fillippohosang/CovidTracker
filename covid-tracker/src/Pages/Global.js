@@ -5,9 +5,9 @@ import NumberFormat from 'react-number-format'
 
 
 const Global = () => {
-  const [confirmed, setConfirmed] = useState([]);
-  const [deaths, setDeaths] = useState([]);
-  const [recovered, setRecovered] = useState([]);
+  const [confirmed, setConfirmed] = useState("");
+  const [deaths, setDeaths] = useState("");
+  const [recovered, setRecovered] = useState("");
   useEffect(() => {
     axios 
      .get("https://covid19.mathdro.id/api")
@@ -26,7 +26,7 @@ const Global = () => {
     <div><center>
     <h1>Global Case</h1>
     <div className = "center">
-    <h1 className ="boxConfirmed">Confirmed <NumberFormat value={confirmed} thousandSeparator={true} /> Cases</h1>
+    <h1 className ="boxConfirmed">Confirmed <NumberFormat value={confirmed} thousandSeparator={true}  displayType={'text'} /> Cases</h1>
     <h1 className ="boxDeaths">Deaths <NumberFormat value={deaths} thousandSeparator={true} displayType={'text'}/> Cases</h1>
     <h1 className ="boxRecovered">Recovered <NumberFormat value={recovered} thousandSeparator={true} displayType={'text'}/> Cases</h1>
     </div>
