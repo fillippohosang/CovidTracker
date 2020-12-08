@@ -16,8 +16,8 @@ const Province = () => {
     }, []);
 
 return (
-
-          <div className="center">
+          <div><h1><center>Province Case</center></h1>
+          <div className="center"> 
             <table>
                <thead>
                 <tr>
@@ -41,7 +41,7 @@ return (
                 )
                 })}
               </tbody>
-            </table></div>
+            </table></div></div>
  
  
 )

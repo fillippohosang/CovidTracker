@@ -7,7 +7,7 @@
   padding: 12px;
   border-radius: 5px;
   font-weight: bold;
-  background-color:rgb(233, 52, 45);
+  background-color:rgb(255, 17, 17);
   font-style: italic;
 }
 
@@ -70,5 +70,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.subtitle{
+  background: linear-gradient(to right, #feb47b, #ff7e5f)
+}
+
 
 

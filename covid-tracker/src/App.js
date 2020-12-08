@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom'
 import Global from "./Pages/Global.js"
 import Indonesia from "./Pages/Indonesia.js"
 import Province from "./Pages/Province.js"
-
+import './App.css'
 
 
 const App = () =>{
@@ -12,7 +12,7 @@ const App = () =>{
           <div>
               <nav>
                   <ul>
-                      <li>  
+                      <li>
                           <Link to="/Global">
                              <b>Global</b> 
                           </Link>
@@ -30,7 +30,7 @@ const App = () =>{
                   </ul>
               </nav>
           </div>
-          <h1><center> Covid 19 Tracker </center></h1>
+          <h1 className="subtitle"><center> Covid 19 Tracker </center></h1>
           <Switch>
               <Route path="/Global">
                   <Global />
